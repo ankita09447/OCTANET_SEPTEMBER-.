@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    justify-content:space-between;
+    height: 50px;
+}
+.main ul{
+    display: flex;
+    list-style: none;
+    justify-content:right;
+    margin:2px 10px;
+    padding:5px;
+}
+.main ul li{
+    margin:2px 10px;
+    padding:5px;
+    justify-content: space-between;
+}
+.main header{
+    margin:2px 10px;
+    padding:5px;
+    font-family: "Playwrite CU", cursive;
+    color:rgb(223, 19, 70);
+}
+/*Body*/
+.body {
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+}
+
+.less {
+    width: 48%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.sign {
+    width:48%;
+    display: flex; /* Add display: flex to make the sign div a flex container */
+    flex-direction: column; /* Arrange content vertically within the sign div */
+    align-items: center; /* Center content within the sign div */
+    margin-top: 30px; /* Add a margin to create space between the two divs */
+    border:2px solid black;
+    text-align: center;
+    background-color: rgba(63, 201, 104, 0.3);
+}
+
+
+/*SECTION*/
+.section{
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.simg {
+    width: 100%; /* Set the width to 100% of the container */
+    height: 100%; /* Set the height to 100% of the container */
+    object-fit: cover; /* Scale the image to cover the entire container */
+}
